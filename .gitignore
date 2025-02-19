@@ -1,0 +1,43 @@
+# Bytecode and compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment (if using venv or Conda)
+venv/
+.env/
+.envrc
+.venv/
+conda_env/
+
+# SQLite database files
+test.db
+*.sqlite3
+
+# Alembic migration history cache (optional, but keep migration scripts)
+alembic/versions/__pycache__/
+alembic/__pycache__/
+
+# Ignore environment files (for secrets & configs)
+.env
+*.env
+
+# Logs and system files
+logs/
+*.log
+.DS_Store
+*.swp
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore JetBrains IDEs (PyCharm, IntelliJ)
+.idea/
+
+# Ignore macOS system files
+*.DS_Store
